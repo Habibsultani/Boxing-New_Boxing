@@ -214,3 +214,27 @@ strong {
   font-weight: 700;
   color: #e67700;
 }
+
+/*****************************/
+/*FEATHURE SECTION*/
+/*****************************/
+
+.feacher-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3.2rem 0;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 20%;
+  filter: brightness(170%);
+  opacity: 50%;
+}
