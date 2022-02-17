@@ -47,3 +47,64 @@ body {
 strong {
   font-weight: 600;
 }
+
+/*****************************/
+/*header section*/
+/*****************************/
+
+.header {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.header-logo {
+  height: 10rem;
+  width: 14rem;
+  background-color: #f8f9fa;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 3.2rem;
+  list-style: none;
+}
+
+.btn-main-nav:link,
+.btn-main-nav:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.2rem 2.4rem;
+  background-color: #fff;
+  color: #f08c00;
+  transition: all 1s;
+  border-radius: 9px;
+}
+.btn-main-nav:hover,
+.btn-main-nav:active {
+  color: #e67700;
+  background-color: #f8f9fa;
+}
+
+.fill-btn-nav:link,
+.fill-btn-nav:visited {
+  background-color: #f08c00;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.fill-btn-nav:hover,
+.fill-btn-nav:active {
+  background-color: #e67700;
+}
