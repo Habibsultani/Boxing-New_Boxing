@@ -319,3 +319,106 @@ strong {
   font-size: 2rem;
   line-height: 1.6;
 }
+
+/*****************************/
+/*BIOGRAPHY SECTION*/
+/*****************************/
+
+.bio-section {
+  padding: 9.6rem 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.lists {
+  border-radius: 1.1rem;
+  overflow: hidden;
+  box-shadow: 0 4.8rem 3.2rem rgba(0, 0, 0, 0.1);
+}
+
+.list-img {
+  width: 100%;
+}
+
+.mewether-img {
+  height: 45%;
+}
+
+.list-name {
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.bio-lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.bio-list {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.before-list-span {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.24rem;
+  margin-bottom: 1.6rem;
+  background-color: #f76707;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.9rem;
+  color: #fff;
+}
+
+.ineer-box-bio-section {
+  padding: 3.2rem;
+}
+
+.list-bio-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #333;
+}
+
+.lists-a-n-boxer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  padding: 2rem;
+}
+
+.list-a-n-boxer {
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.icon-boxer-top-l {
+  width: 3rem;
+  height: 3rem;
+  color: #e67700;
+}
+
+.see-more-bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4.8rem;
+}
+
+.see-more-btn:link,
+.see-more-btn:visited {
+  font-size: 1.8rem;
+  color: #e67700;
+  font-weight: 600;
+  text-decoration: underline;
+}
