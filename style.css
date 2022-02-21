@@ -691,6 +691,20 @@ strong {
 /*FOOTER SECTION*/
 /*****************************/
 
-.forme-section {
-  padding: 9.6rem 0;
+.footer-section {
+  padding: 22rem 0 9.6rem 0;
+}
+
+.social-section-icon {
+  display: flex;
+  gap: 2.4rem;
+  padding: 1.8rem 5.8rem;
+}
+
+.footer-icon-soc {
+  width: 4.8rem;
+}
+
+.footer-logo {
+  width: 15.6rem;
 }
