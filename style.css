@@ -694,6 +694,8 @@ strong {
 .footer-section {
   padding: 9.6rem 0;
   border-top: 3px solid #bbb;
+  display: flex;
+  gap: 3.2rem;
 }
 
 .social-section-icon {
@@ -709,4 +711,10 @@ strong {
 .footer-logo {
   width: 25rem;
   padding-left: 0.2em;
+}
+
+.header-footer {
+  font-size: 3.2rem;
+  font-weight: 700;
+  padding: 5.6rem 0 0 2.4rem;
 }
