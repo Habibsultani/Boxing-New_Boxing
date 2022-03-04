@@ -18,4 +18,22 @@
   .testamonial-section-container {
     padding: 8.8rem;
   }
+
+  .footer-main {
+    gap: 13rem;
+  }
+
+  .testa01 {
+    column-gap: 3.2rem;
+  }
+}
+
+@media (max-width=60.6em) {
+  html {
+    font-size: 54%;
+  }
+
+  .main-nav-list {
+    gap: 1.2rem;
+  }
 }
