@@ -2,4 +2,20 @@
   html {
     font-size: 59%;
   }
+
+  .main-nav-list {
+    gap: 1.8rem;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+  .second-heading {
+    font-size: 4.8rem;
+  }
+
+  .testamonial-section-container {
+    padding: 8.8rem;
+  }
 }
