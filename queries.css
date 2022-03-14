@@ -36,4 +36,22 @@
   .main-nav-list {
     gap: 1.2rem;
   }
+
+  .grid {
+    display: grid;
+    row-gap: 6.4rem;
+    column-gap: 2.2rem;
+  }
+
+  .grid--cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--cols-4 {
+    grid-template-columns: 1fr;
+  }
 }
